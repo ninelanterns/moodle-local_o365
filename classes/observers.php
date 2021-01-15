@@ -244,7 +244,7 @@ class observers {
         // Get additional tokens for the user.
         $eventdata = $event->get_data();
         if (!empty($eventdata['other']['username']) && !empty($eventdata['userid'])) {
-            static::get_additional_user_info($eventdata['userid'], 'login');
+            //static::get_additional_user_info($eventdata['userid'], 'login');
         }
 
         return true;
